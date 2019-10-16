@@ -71,3 +71,12 @@ input[type="checkbox"] {
 input[type="radio"] {
   width: 10px;
 }
+
+.textarea { 
+border-color: red;
+}
+
+.textarea:focus {
+border-color: green;
+outline: none;
+}
